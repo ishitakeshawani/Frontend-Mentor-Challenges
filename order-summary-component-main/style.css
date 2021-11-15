@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-image: url("./images/pattern-background-desktop.svg");
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  margin: 5%;
+  width: 320px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: -1px -1px 5px 0 hsl(224, 23%, 55%);
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text {
+  margin: 0 5% 5% 5%;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+img {
+  width: 320px;
+  height: 150px;
+}
+
+.first {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.sub-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid hsl(225, 100%, 98%);
+  background: hsl(225, 100%, 98%);
+  align-items: center;
+  margin: 25px;
+  padding: 15px;
+}
+
+.sub-card img {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.ann {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pack {
+  padding-right: 35px;
+}
+
+.pay {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  margin: 25px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 12px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
