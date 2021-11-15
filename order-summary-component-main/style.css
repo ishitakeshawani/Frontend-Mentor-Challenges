@@ -101,3 +101,16 @@ img {
   padding-bottom: 20px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width:500px;
+  }
+}
