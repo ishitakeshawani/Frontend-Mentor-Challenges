@@ -113,4 +113,7 @@ img {
   body {
     width:400px;
   }
+  .card{
+    margin: 2%;
+  }
 }
